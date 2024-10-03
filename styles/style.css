@@ -1,0 +1,76 @@
+body{
+   display: grid;
+   grid-template-rows: 2fr 9fr 2fr;
+   gap: 2em;
+}
+
+
+header{
+    display: flex;
+    background-image: url(../assets/Planten.JPG);
+    border-radius: 2em;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h1{
+    color: white;
+    font-size: 5em;
+    flex-grow: 5;
+}
+
+main{
+    display: grid;
+    gap: 1em;
+    margin-top: -7em;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 233, 194);
+    color: rgb(60, 89, 62);
+    border-radius: 2em;
+    gap: 10em;
+}
+
+.info{
+    margin-top: 3em;
+}
+section{
+    display: grid;
+    color: rgb(78, 113, 65);
+    border-radius: 2em;
+    width: 70em;
+}
+
+.tekst{
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.beige{
+    background-color: rgb(249, 233, 194);
+    color: rgb(60, 89, 62);
+}
+
+.groen{
+    background-color: rgb(60, 89, 62);
+    color: rgb(249, 233, 194);
+}
+
+.oranje{
+    background-color: rgb(255, 154, 65);
+    color: rgb(73, 27, 2);
+}
+
+html{
+    font-family: 'mulich', sans-serif;
+    line-height: 1.5;
+}
+
+h2{
+   font-family: "Poppins-Black", sans-serif;
+   font-size: 3em;
+}
